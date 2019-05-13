@@ -1,0 +1,216 @@
+*{
+
+    padding: 0px;
+    margin: 0px;
+    list-style: none;  /*】*/
+    color: black;
+    text-decoration: none;  /*去掉下划线*/
+}
+html,body{
+    height: 100%;
+    width: 100%;
+/*    border: 2px solid blue;*/
+    background-color: #f4f4f4;
+    color: #3c3c3c;
+    overflow-x: hidden;  /* 横向滚动超出的，消失*/
+    
+}
+.inder{     /*最大的框框*/
+    height: 100%;
+    width: 100%;
+    
+}
+
+
+ /* 头部导航条框框*/
+.inder .top{  
+    width: 100%;
+    height: 105px;
+/*    border: 9px solid black;*/
+
+}
+.top .top1{
+    width: 1190px;
+    height: 35px;
+    line-height: 35px;
+    margin: 0 auto;   /*缩小，照样居中*/
+/*    border: 2px solid blue;*/
+}
+.top .top1 .top1-l{ height: 35px;}
+.top .top1 .top1-r{ height: 35px;}
+
+.top1-l{               /*让ul-l在左边*/
+    float: left;
+}
+.top1-r{               
+    float: right;
+}
+.top1-l li{            /*让ul-l 里面的li横着 依次向左边*/
+    float: left;
+    margin: 5px;
+}
+.top1-r li{           
+    float: left;
+    margin: 5px;
+}
+.top1 ul li a{    /*改颜色，字体*/
+    color: #6c6c6c;
+    font-size: 12px;
+    padding: 0 5px;
+}
+.top1 ul li a:hover{
+    color: #f40;
+
+}
+.top1 .top1-l .top1-l-china{
+    font-size: 15px;
+}
+.top1 .top1-l .top1-l-2 .l-2-login{
+    color: #f40;
+}
+.top .top1-l-china .c-span{
+    padding: 0 3px;
+
+}
+.inder .top1 .bg-pic{      /*放倒三角形*/
+    display: inline-block;
+    width: 6px;
+    height: 4px;
+    background-size: 100% 100%;
+    vertical-align: middle;  /*中间对齐 对齐线*/
+}
+
+.top .top1 .bg-pic{
+    background-image: url("img/xsj.png"); 
+}
+
+.top .top1 .top1-r .top1-r-shopcar .bg-pic-1{
+     width: 12px;
+     height: 12px;
+     background-image: url("img/gws.png");/*!*/
+ 
+}
+
+.top .top1 .top1-r .top1-r-like .bg-pic-2{
+     width: 12px;
+     height: 12px;
+     background-image: url("img/");/*!*/
+}
+
+.top .top1 .top1-r .top1-r-5 .bg-pic-3{
+     width: 6px;
+     height: 8px;
+     background-image: url('img/star.png');  /*!*/
+}
+
+.top1 .top1-r .top1-r-off{
+    color: #ddd;
+}
+
+
+.top .top2{
+    width: 100%;
+    height: 70px;
+    background-color: #4c174d;    
+/*    border: 2px solid red;*/
+}
+.top .top2 .top2-ab{
+    width: 1190px;      /*太宽，导致图片变形 两边加背景颜色*/
+    height: 70px;
+    margin: 0 auto;       /*居中*/
+    
+}
+
+
+
+
+
+ /* 搜索区框框*/
+.inder .search{   
+    width: 100%;
+    height: 97px;
+    padding-top: 24px;
+    background-color: #fff;
+    border: 1px solid black;
+
+}
+.search .search1{
+    position: relative;
+    width: 1190px;
+    height: 88px;
+    line-height: 88px;
+    margin: 0 auto;
+    
+    border: 3px solid black;
+
+}
+.search .search1 .search11{
+    position: relative;
+    top: -12px;
+    display: inline-block;   /*转换为行级块元素*/
+    width: 190px;
+    height: 105px;
+    border: 1px solid black;
+    background-image: url('img/logo.gif');
+    background-size: 100% 100%;
+}
+
+.search .search1 .search22{
+    display: inline-block;
+    width: 627px;
+    height: 87px;
+    border: 1px solid black;
+    vertical-align: top;
+    margin-left: 50px;
+
+}
+
+.search .search1 .search22 .search22-t {
+    width: 627px;
+    height: 62px;
+    border:  1px solid black;
+}
+.search .search1 .search22 .search22-t .search22-t1 ul li{
+    width: 50px;
+    height: 20px;
+    float: left;
+    
+    
+}
+.search .search1 .search22 .search22-b{
+    width: 627px;
+    height: 20px;
+}
+.search .search1 .search33{
+    display: inline-block;
+    width: 76px;
+    height: 90px;
+    border: 1px solid black;
+    vertical-align: top;   /*对齐方式*/
+}
+
+
+
+
+
+
+
+
+
+
+
+ /*导航条框框*/
+.inder .screen{    
+    width: 1190px;
+    height: 30px;
+    background: green;
+    margin: 0 auto;   /*缩小，照样居中*/
+}
+
+ /*整体框框*/
+.inder .subject{   
+    width: 1190px;
+    height: 632px;
+    border: 3px solid green;
+    margin: 0 auto;   /*缩小，照样居中*/
+}

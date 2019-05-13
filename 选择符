@@ -1,0 +1,101 @@
+  id 选择符
+<style>
+#box{widht:100px;height:100px;background:blue;}
+</style>
+
+<div id="box">块</div>
+
+通过id来选中的叫id选择符
+每个id只能用一次
+
+
+  群组选择符
+<style>
+#box1,#box2,#box3{widht:100px;height:100px;background:blue;}
+</style>
+
+<div id="box1">块</div>
+<div id="box2">块</div>
+<div id="box3">块</div>
+
+多个id之间用逗号（,）隔开使用
+每个id只能用一次
+
+
+  class(类)选择符
+<style>
+.box{widht:100px;height:100px;background:blue;}
+</style>
+该样式显示在<div class="box">块</div>里
+
+<div class="box">块</div>
+<div class="box">块</div>
+<div class="box">块</div>
+
+可以重复使用的 id
+
+
+   类型选择符
+<style>
+p或div{widht:100px;height:100px;background:blue;}
+</style>
+该样式显示在p或div的标签里
+
+<div>块</div>
+<div>块</div>
+<div>块</div>
+
+<p>p1</p>
+<p>p1</p>
+<p>p1</p>
+
+根据页面标签类型来选择元素
+
+
+  包含选择符
+<style>
+div p{widht:100px;height:100px;background:blue;}
+</style>
+该样式显示在div包含的p标签里
+
+<div>
+ <p>p2</p>
+</div>
+
+<div>
+ <p>p2</p>
+</div>
+
+<div>块</div>
+
+<p>p1</p>
+
+<p>p1</p>
+
+<p>p1</p>
+
+根据页面标签的包含关系来选择元素
+包含的标签之间用一个空格来隔开
+
+
+  ( * ) 通配符
+
+<style>
+*{widht:100px;height:100px;background:blue;}
+</style>
+
+<div>块</div>
+<div>块</div>
+<div>块</div>
+
+( * ) 通配符会给页面上所有元素加上样式
+
+
+ 选择符优先级
+
+ 同级样式默认后者覆盖前者
+
+ 样式优先级：
+ 等级高的覆盖等级低的
+ 类型选择符（1） < class选择符（2） < id选择符（3） < style行间样式（4） < js（5）
+ 包含选择跟符类型选择符同级，但是包含选择符会覆盖类型选择符
