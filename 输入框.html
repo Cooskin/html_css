@@ -7,68 +7,39 @@
 
     <title>框框</title>
 
-    <style>
-    *{
-        padding: 0px;
-        margin: 0px;
-    }
-    p{
-        margin-left: 10px;
-    }
-    input{
-        margin-top: 20px;
-        margin-left: 30px;
-        padding-left: 20px;
-        border:1px solid #f40;
-        border-radius:4px ;
-        height: 33px;
-    }
-
-    from{
-        position: absolute;
-        top: 30px;
-        right: 30px;
-        width: 280px;
-        height: 190px;
-        border: 1px solid #abc;
-        border-radius: 5px;
-        display: block;
-        background: #fff;
-    }
-    [value=登录] {
-        height:35px;
-        width:190px;
-        border: 1px solid white;
-        border-radius:5px ;
-        background-color: #f40;
-        color:white;
-        margin-left: 40px;
-        margin-top: 8px;
-        padding-right: 20px;
-    }
-    </style>
+    <link rel="stylesheet" href="login.css">
 </head>
 <body>
-<from method="get" action="">
-    <p>
-        <input type="text" name="username" value="账号/用户名/手机号" style="color: #999;">
-    </p>
-    <p>
-        <input type="password" name="password">
-    </p>
-    <input type="submit" value="登录">
+<div class="login">
+    <h2>
+        <em>LOAD</em>登录
+    </h2>
 
+    <from method="get" action="#">
 
-
-</from>
-
-
-
-
-
-
-
-
+        <ul>
+            <li>
+                <span>账号：</span>
+                <label>
+                    <input class="text" type="text" name="username">
+                    <input class="aa" type="checkbox">
+                    <strong>记住我</strong>
+                </label>
+            </li>
+            <li>
+                <span>密码：</span>
+                <label>
+                    <input class="text" type="password" name="password">
+                </label>
+                <input class="btn" type="submit" value="登录">
+            </li>
+        </ul>
+        <p>
+            <a href="#">账号注册</a>
+            <a href="#">忘记密码</a>
+        </p>
+    </from>
+</div>
 
 </body>
 </html>

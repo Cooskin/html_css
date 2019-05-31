@@ -1,0 +1,201 @@
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Title</title>-->
+<!--</head>-->
+<!--<body>-->
+
+
+<!--<table border="1">-->
+<!--    <tr>-->
+<!--        <th>日期</th>-->
+<!--        <th>任务</th>-->
+<!--        <th>是否完成</th>-->
+<!--    </tr>-->
+<!--    <tr>-->
+<!--        <td>06.01</td>-->
+<!--        <td>一节课</td>-->
+<!--        <td  style="cellspacing:40px;width: 100px;">-->
+<!--            <input class="aa" type="checkbox"style="margin: auto 40px;">-->
+<!--        </td>-->
+<!--    </tr>-->
+<!--</table>-->
+
+
+<!--</body>-->
+<!--</html>-->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>#计划表#</title>
+    <style type="text/css">
+        div{
+            width: 400px;
+            border: 1px solid #999999;
+        }
+
+        .t1 {
+            width: 400px;
+            cellspacing: 5px;
+            cellpadding: 10%;
+            border: 1px;
+        }
+
+        thead {
+            background-color: #0096be;
+
+        }
+
+        .tbody {
+            text-indent: 10px;
+            background-color: #00b0e0;
+        }
+
+        tfoot {
+            background-color: yellow;
+        }
+
+        caption{
+            background: #333;
+        }
+
+        strong{
+            font-size: 24px;
+            color: #ddd;
+        }
+
+        input{
+            width: 20px;
+            margin-left: 20px;
+        }
+
+        body{
+            width: 100%;
+            margin: 40px 40%;
+        }
+
+    </style>
+</head>
+<body>
+<div>
+    <table class="t1">
+        <caption>
+           <strong>JavaScript学习计划</strong>
+        </caption>
+        <thead>
+        <tr>
+            <th>#</th>
+            <th>日期</th>
+            <th>今日任务</th>
+            <th>完成</th>
+            <th>未完成</th>
+        </tr>
+        </thead>
+        <tbody class="tbody">
+        <tr>
+            <td rowspan="11">#</td>
+            <td>06.01</td>
+            <td> II.第01课</td>
+            <td>
+                <input type="checkbox">
+            </td>
+            <td>
+                <input type="checkbox">
+            </td>
+        </tr>
+        <tr>
+            <td>06.02</td>
+            <td> II.第02课</td>
+            <td>
+                <input type="checkbox">
+            </td>
+            <td>
+                <input type="checkbox">
+            </td>
+        </tr>
+        <tr>
+            <td>06.03</td>
+            <td> II.第03课</td>
+            <td>
+                <input type="checkbox">
+            </td>
+            <td>
+                <input type="checkbox">
+            </td>
+        </tr>
+        <tr>
+            <td>06.04</td>
+            <td> II.第04课</td>
+            <td>
+                <input type="checkbox">
+            </td>
+            <td>
+                <input type="checkbox">
+            </td>
+        </tr>
+        <tr>
+            <td>06.05</td>
+            <td> II.第05课</td>
+            <td>
+                <input type="checkbox">
+            </td>
+            <td>
+                <input type="checkbox">
+            </td>
+        </tr>
+        <tr>
+            <td>06.06</td>
+            <td> II.第06课</td>
+            <td>
+                <input type="checkbox">
+            </td>
+            <td>
+                <input type="checkbox">
+            </td>
+        </tr>
+        <tr>
+            <td>06.07</td>
+            <td> II.第07课</td>
+            <td>
+                <input type="checkbox">
+            </td>
+            <td>
+                <input type="checkbox">
+            </td>
+        </tr>
+        <tr>
+            <td>06.08</td>
+            <td> II.第08课</td>
+            <td>
+                <input type="checkbox">
+            </td>
+            <td>
+                <input type="checkbox">
+            </td>
+        </tr>
+
+        </tbody>
+
+        <tfoot>
+        <tr>
+            <td rowspan="3">#</td>
+            <td colspan="3">#</td>
+        </tr>
+        <tr>
+            <td colspan="2">#</td>
+            <td>#</td>
+        </tr>
+        <tr>
+            <td>#</td>
+            <td>#</td>
+            <td>#</td>
+        </tr>
+        </tfoot>
+    </table>
+</div>
+</body>
+</html>
